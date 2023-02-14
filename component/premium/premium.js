@@ -1,7 +1,7 @@
 const PremiumLearning = () => {
   return (
     <>
-      <div className="wrap bg-[#FDF8EE]">
+      <div className="wrap bg-[#FDF8EE] p-6">
         {/* Premium Logo */}
         <div className="flex items-center pb-8">
           <div className="premium-img w-full">
