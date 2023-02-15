@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       {/* Footer All Category*/}
-      <div className="grid grid-cols-3 p-4 font-Roboto text-[13px] text-[#606060] bg-[#FDF8EE]">
+      <div className="grid grid-cols-3 justify-items-center p-4 font-Roboto text-[13px] text-[#606060] bg-[#FDF8EE]">
         {/* Cources */}
         <div className="list-none">
           <li className="font-bold text-[15px] text-[#000]">Cources</li>
@@ -30,9 +30,9 @@ const Footer = () => {
         </div>
 
         {/* About Company & Contact */}
-        <div className="flex col-span-3 gap-3 w-full pt-3">
+        <div className="flex col-span-3 gap-3 w-full pt-3 max-[385px]:flex max-[385px]:flex-wrap">
           {/* Company Info */}
-          <div className=" ">
+          <div className="">
             {/* Logo */}
             <div className="flex items-center gap-1 py-1">
               <img className="w-8" src="/img/logo.png" alt="Main logo" />
@@ -40,8 +40,9 @@ const Footer = () => {
             </div>
             {/* About Company */}
             <p className="text-[14px]">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
-              voluptatum rem recusandae velit itaque.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy a
+              type specimen book.
             </p>
           </div>
 

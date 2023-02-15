@@ -6,7 +6,7 @@ import Nav from "./nav";
 const Hero = () => {
   return (
     <>
-      <div className="hero-wrap bg-[#FDF8EE] ">
+      <div className="hero-wrap bg-[#FDF8EE] sm:bg-[red]">
         <Nav />
         <HeroLeft />
         <HeroRight />
