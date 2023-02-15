@@ -1,7 +1,7 @@
 const OurTrack = () => {
   return (
     <>
-      <div className="wrap p-6 ">
+      <div className="p-6">
         {/* Our Tracks Head */}
         <div className="font-Poppins flex pb-4">
           <div className="hidden">
@@ -17,17 +17,21 @@ const OurTrack = () => {
             <img src="/img/ourTrack-arrow.png" alt="arrow" />
           </div>
         </div>
-        {/* Our Tracks Card */}
-        <div className="card-wrap">
-          <div className="card p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
-            <div className="card-img">
+        {/* Our Tracks Card Wrap */}
+        <div className="">
+          {/* Card 1 */}
+          <div className="p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
+            {/* Card Image */}
+            <div className="">
               <img
                 className="w-full object-cover rounded-md"
                 src="/img/ourTrack-devloper.png"
                 alt=""
               />
             </div>
-            <div className="card-body pt-1">
+
+            {/* Card Title & Rating*/}
+            <div className="pt-1">
               <div className="title_rating flex items-center justify-between gap-4 p-1">
                 <p className="font-Poppins text-[#000] font-bold">
                   UI/UX Design for Beginners
@@ -39,9 +43,15 @@ const OurTrack = () => {
                 />
               </div>
             </div>
-            <div className="price text-[#FF7426] font-semibold">$98</div>
-            <div className="Hdash border-b border-[#ACACAC] border-dashed pt-3"></div>
-            <div className="card-util flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
+
+            {/* Card Price */}
+            <div className="p-1 text-[#FF7426] font-semibold">$98</div>
+
+            {/* Card Horizontal Line */}
+            <div className="border-b border-[#ACACAC] border-dashed pt-3"></div>
+
+            {/* Card Time, Course, Sell */}
+            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
               <div className="time flex items-center justify-center gap-1">
                 <div className="w-[15px]">
                   <img src="/img/ourTrack-time.png" alt="time" />
@@ -61,21 +71,26 @@ const OurTrack = () => {
                 <p className="font-Poppins text-[#acacac]">250 Sales</p>
               </div>
             </div>
+            {/* Card Join Button*/}
             <div className="button flex justify-center">
               <button className="bg-[#FF7426] font-Roboto text-white rounded-[20px] p-1 text-[15px] max-w-[50%]">
                 Join Course
               </button>
             </div>
           </div>
-          <div className="card p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
-            <div className="card-img">
+          {/* Card 2 */}
+          <div className="p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
+            {/* Card Image */}
+            <div className="">
               <img
                 className="w-full object-cover rounded-md"
                 src="/img/ourTrack-ux-designer.png"
                 alt=""
               />
             </div>
-            <div className="card-body pt-1">
+
+            {/* Card Title & Rating*/}
+            <div className="pt-1">
               <div className="title_rating flex items-center justify-between gap-4 p-1">
                 <p className="font-Poppins text-[#000] font-bold">
                   Software Development Beginners
@@ -87,9 +102,15 @@ const OurTrack = () => {
                 />
               </div>
             </div>
-            <div className="price text-[#FF7426] font-semibold">$100</div>
-            <div className="Hdash border-b border-[#ACACAC] border-dashed pt-3"></div>
-            <div className="card-util flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
+
+            {/* Card Price */}
+            <div className="p-1 text-[#FF7426] font-semibold">$100</div>
+
+            {/* Card Horizontal Line */}
+            <div className="border-b border-[#ACACAC] border-dashed pt-3"></div>
+
+            {/* Card Time, Course, Sell */}
+            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
               <div className="time flex items-center justify-center gap-1">
                 <div className="w-[15px]">
                   <img src="/img/ourTrack-time.png" alt="time" />
@@ -109,21 +130,27 @@ const OurTrack = () => {
                 <p className="font-Poppins text-[#acacac]">520 Sales</p>
               </div>
             </div>
+
+            {/* Card Join Button*/}
             <div className="button flex justify-center">
               <button className="bg-[#FF7426] font-Roboto text-white rounded-[20px] p-1 text-[15px] max-w-[50%]">
                 Join Course
               </button>
             </div>
           </div>
-          <div className="card p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
-            <div className="card-img">
+          {/* Card 3 */}
+          <div className="p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
+            {/* Card Image */}
+            <div className="">
               <img
                 className="w-full object-cover rounded-md"
                 src="/img/ourTrack-little-girl-participating-online-classes.png"
                 alt=""
               />
             </div>
-            <div className="card-body pt-1">
+
+            {/* Card Title & Rating*/}
+            <div className="pt-1">
               <div className="title_rating flex items-center justify-between gap-4 p-1">
                 <p className="font-Poppins text-[#000] font-bold">
                   Junior Software Development
@@ -135,9 +162,15 @@ const OurTrack = () => {
                 />
               </div>
             </div>
-            <div className="price text-[#FF7426] font-semibold">$50</div>
-            <div className="Hdash border-b border-[#ACACAC] border-dashed pt-3"></div>
-            <div className="card-util flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
+
+            {/* Card Price */}
+            <div className="p-1 text-[#FF7426] font-semibold">$50</div>
+
+            {/* Card Horizontal Line */}
+            <div className="border-b border-[#ACACAC] border-dashed pt-3"></div>
+
+            {/* Card Time, Course, Sell */}
+            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
               <div className="time flex items-center justify-center gap-1">
                 <div className="w-[15px]">
                   <img src="/img/ourTrack-time.png" alt="time" />
@@ -157,6 +190,8 @@ const OurTrack = () => {
                 <p className="font-Poppins text-[#acacac]">250 Sales</p>
               </div>
             </div>
+
+            {/* Card Join Button*/}
             <div className="button flex justify-center">
               <button className="bg-[#FF7426] font-Roboto text-white rounded-[20px] p-1 text-[15px] max-w-[50%]">
                 Join Course

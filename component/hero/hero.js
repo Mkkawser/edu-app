@@ -10,7 +10,7 @@ const Hero = () => {
         <Nav />
         <HeroLeft />
         <HeroRight />
-        <HeroBottom />
+        <HeroBottom /> {/* 3 Accebility  */}
       </div>
     </>
   );

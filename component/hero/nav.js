@@ -6,24 +6,25 @@ const Nav = () => {
   const [visible, setVisible] = useState(false);
   return (
     <>
-      <div className="nav-wraper flex items-center justify-between p-6">
-        <div className="logo flex gap-1 items-center max-w-[100px]">
-          <div className="logo-wrap max-w-[22px] max-h-[22px]">
+      {/* navbar  */}
+      <div className="flex items-center justify-between p-6">
+        {/* navbar logo */}
+        <div className="flex gap-1 items-center max-w-[140px]">
+          <div className="logo-wrap max-w-[35px] ">
             <img
               className="w-full h-full object-cover"
               src="/img/logo.png"
               alt="logo of site"
             />
           </div>
-          <div className="logo-name text-[12px] font-semibold">
-            <p className="font-Roboto">Book Store</p>
+          <div className="logo-name font-semibold">
+            <p className="font-Roboto text-[14px]">Book Store</p>
           </div>
         </div>
-        <div className="menu-wrap">
-          <button onClick={() => setVisible(true)}>
-            <FiMenu className="w-[20px] h-[20px]" />
-          </button>
-        </div>
+        {/* navbar menu button*/}
+        <button onClick={() => setVisible(true)}>
+          <FiMenu className="w-[25px] h-[25px]" />
+        </button>
       </div>
 
       {/* sidebar panel */}

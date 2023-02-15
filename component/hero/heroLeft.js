@@ -20,7 +20,7 @@ const HeroLeft = () => {
           <img className="w-[35px] h-[35px]" src="/img/hero-ruler.png" alt="" />
         </div>
         {/* Title */}
-        <p className="font-extrabold text-[8vw] pt-[15px]">
+        <p className="font-extrabold text-[7vw] pt-[12px]">
           The <span className="text-[#FF7426]">Smart</span> Choice For{" "}
           <span className="text-[#FF7426]">Future</span>
         </p>
@@ -31,12 +31,12 @@ const HeroLeft = () => {
           the...
         </p>
         {/* Search Location */}
-        <div className="search flex items-center rounded-[50px] bg-[#ffff] border-2 gap-[5px] max-w-fit">
+        <div className="search flex items-center rounded-[50px] bg-[#ffff] border-2 gap-[5px] max-w-fit h-[40px]">
           <div className="search-icon min-w-[15px] w-[15px] ml-[5px]">
             <img src="./img/hero-search.png" alt="Location Search" />
           </div>
           <input
-            className="border-none outline-none flex max-w-[34vw] placeholder:text-[11px] placeholder:text-[#0F335E]"
+            className="border-none outline-none max-w-[34vw] placeholder:text-[11px] placeholder:text-[#0F335E]"
             type="text"
             placeholder="Search for a location..."
           />
@@ -45,7 +45,7 @@ const HeroLeft = () => {
           </button>
         </div>
         {/* Icon Lab & Jemiti */}
-        <div className="flex max-w-[60%] justify-between py-4 opacity-80">
+        <div className="flex max-w-[80%] justify-between py-4 opacity-80">
           <div className="w-[40px] h-[40px]">
             <img className="w-full h-full" src="/img/hero-lab.png" alt="" />
           </div>
