@@ -12,6 +12,6 @@
   src: url("/font/Poppins.ttf");
 }
 
-.half-circle {
-  clip-path: polygon(22% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%, 22% 54%);
+.customWidth {
+  width: 18rem !important;
 }
