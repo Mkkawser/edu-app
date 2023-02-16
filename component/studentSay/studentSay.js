@@ -1,7 +1,7 @@
 const StudentSay = () => {
   return (
     <>
-      <div className="bg-[#F5F5F5] py-4">
+      <div className="bg-[#F5F5F5] py-4 md:flex md:flex-wrap md:justify-center">
         {/* Top & Title  */}
         <div className="font-Poppins flex justify-center flex-col items-center pt-[15px] pb-[10px]">
           <p className="text-[#050C26] text-[4vw]">What student’s say</p>
@@ -11,12 +11,12 @@ const StudentSay = () => {
         </div>
 
         {/* Carousole Students Say Card*/}
-        <div className="p-3 flex justify-center">
+        <div className="p-3 flex justify-center md:w-[70%]">
           {/* Card */}
           <div className="font-Roboto bg-[#FFFFFF] shadow-[0px_4px_88px_rgba(0,0,0,0.05)] p-3 max-w-[80%] rounded-sm">
             {/* Card Text Area */}
             <div className="">
-              <p className="text-[#ACACAC] tracking-[0.02em] text-[3.5vw] leading-[150%] ">
+              <p className="text-[#ACACAC] tracking-[0.02em] text-[3.5vw] leading-[150%] md:text-[2.5vw]">
                 “Teachings of the great explore of truth, the master-builder of
                 human happiness. no one rejects,dislikes, or avoids pleasure
                 itself, pleasure itself”

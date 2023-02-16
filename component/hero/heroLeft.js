@@ -20,12 +20,12 @@ const HeroLeft = () => {
           <img className="w-[35px] h-[35px]" src="/img/hero-ruler.png" alt="" />
         </div>
         {/* Title */}
-        <p className="font-extrabold text-[7vw] pt-[12px]">
+        <p className="font-extrabold text-[7vw] pt-[12px] md:text-[4vw]">
           The <span className="text-[#FF7426]">Smart</span> Choice For{" "}
           <span className="text-[#FF7426]">Future</span>
         </p>
         {/* Description */}
-        <p className="font-medium leading-[171%] text-[#8a8a8a] text-[3vw] py-4">
+        <p className="font-medium leading-[171%] text-[#8a8a8a] text-[3vw] py-4 md:text-[12px]">
           Elearn is a global training provider based across the UK that
           specialises in accredited and bespoke training courses. We crush
           the...

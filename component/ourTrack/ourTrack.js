@@ -7,9 +7,11 @@ const OurTrack = () => {
           <div className="hidden">
             <img src="/img/ourTrack-lamp.png" alt="lamp" />
           </div>
-          <div className="flex flex-wrap items-center justify-center">
-            <p className="font-bold text-[5vw] text-[#000]">Our Tracks</p>
-            <p className="text-[3vw] text-[#8A8A8A] py-1">
+          <div className="flex flex-wrap items-center justify-center md:w-full md:flex-col">
+            <p className="font-bold text-[5vw] text-[#000] md:text-[22px]">
+              Our Tracks
+            </p>
+            <p className="text-[3vw] text-[#8A8A8A] py-1 md:text-[14px]">
               Lorem Ipsum is simply dummy text of the printing.
             </p>
           </div>
@@ -17,8 +19,9 @@ const OurTrack = () => {
             <img src="/img/ourTrack-arrow.png" alt="arrow" />
           </div>
         </div>
+
         {/* Our Tracks Card Wrap */}
-        <div className="">
+        <div className="sm:grid sm:grid-cols-2 md:grid-cols-3">
           {/* Card 1 */}
           <div className="p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
             {/* Card Image */}
@@ -32,8 +35,8 @@ const OurTrack = () => {
 
             {/* Card Title & Rating*/}
             <div className="pt-1">
-              <div className="title_rating flex items-center justify-between gap-4 p-1">
-                <p className="font-Poppins text-[#000] font-bold">
+              <div className="flex items-center justify-between gap-4 p-1">
+                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] md:truncate">
                   UI/UX Design for Beginners
                 </p>
                 <img
@@ -51,7 +54,7 @@ const OurTrack = () => {
             <div className="border-b border-[#ACACAC] border-dashed pt-3"></div>
 
             {/* Card Time, Course, Sell */}
-            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
+            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit md:text-[9px]">
               <div className="time flex items-center justify-center gap-1">
                 <div className="w-[15px]">
                   <img src="/img/ourTrack-time.png" alt="time" />
@@ -78,6 +81,7 @@ const OurTrack = () => {
               </button>
             </div>
           </div>
+
           {/* Card 2 */}
           <div className="p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
             {/* Card Image */}
@@ -91,8 +95,8 @@ const OurTrack = () => {
 
             {/* Card Title & Rating*/}
             <div className="pt-1">
-              <div className="title_rating flex items-center justify-between gap-4 p-1">
-                <p className="font-Poppins text-[#000] font-bold">
+              <div className="flex items-center justify-between gap-4 p-1">
+                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] md:truncate">
                   Software Development Beginners
                 </p>
                 <img
@@ -110,7 +114,7 @@ const OurTrack = () => {
             <div className="border-b border-[#ACACAC] border-dashed pt-3"></div>
 
             {/* Card Time, Course, Sell */}
-            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
+            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit md:text-[9px]">
               <div className="time flex items-center justify-center gap-1">
                 <div className="w-[15px]">
                   <img src="/img/ourTrack-time.png" alt="time" />
@@ -138,6 +142,7 @@ const OurTrack = () => {
               </button>
             </div>
           </div>
+
           {/* Card 3 */}
           <div className="p-2 shadow-[0px_4px_25px_rgba(0,0,0,0.1)] mb-4">
             {/* Card Image */}
@@ -151,8 +156,8 @@ const OurTrack = () => {
 
             {/* Card Title & Rating*/}
             <div className="pt-1">
-              <div className="title_rating flex items-center justify-between gap-4 p-1">
-                <p className="font-Poppins text-[#000] font-bold">
+              <div className="flex items-center justify-between gap-4 p-1">
+                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] md:truncate">
                   Junior Software Development
                 </p>
                 <img
@@ -170,7 +175,7 @@ const OurTrack = () => {
             <div className="border-b border-[#ACACAC] border-dashed pt-3"></div>
 
             {/* Card Time, Course, Sell */}
-            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit">
+            <div className="flex text-[12px] gap-4 pt-4 pb-6 max-w-fit md:text-[9px]">
               <div className="time flex items-center justify-center gap-1">
                 <div className="w-[15px]">
                   <img src="/img/ourTrack-time.png" alt="time" />

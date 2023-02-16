@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       {/* Footer All Category*/}
-      <div className="grid grid-cols-3 justify-items-center p-4 font-Roboto text-[13px] text-[#606060] bg-[#FDF8EE]">
+      <div className="grid grid-cols-3 justify-items-center p-4 font-Roboto text-[13px] text-[#606060] bg-[#FDF8EE] md:flex md:gap-10 md:items-baseline">
         {/* Cources */}
         <div className="list-none">
           <li className="font-bold text-[15px] text-[#000]">Cources</li>
@@ -30,13 +30,13 @@ const Footer = () => {
         </div>
 
         {/* About Company & Contact */}
-        <div className="flex col-span-3 gap-3 w-full pt-3 max-[385px]:flex max-[385px]:flex-wrap">
+        <div className="flex col-span-3 gap-3 w-full pt-3 max-[385px]:flex max-[385px]:flex-wrap md:-order-1 md:items-baseline">
           {/* Company Info */}
           <div className="">
             {/* Logo */}
             <div className="flex items-center gap-1 py-1">
-              <img className="w-8" src="/img/logo.png" alt="Main logo" />
-              <p className="text-[20px]">Book Store</p>
+              <img className="w-8 md:w-5" src="/img/logo.png" alt="Main logo" />
+              <p className="text-[20px] md:text-[16px] text-[#4D2C5E]">Book Store</p>
             </div>
             {/* About Company */}
             <p className="text-[14px]">

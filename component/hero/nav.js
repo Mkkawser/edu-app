@@ -1,5 +1,5 @@
-import { FiMenu } from "react-icons/fi";
 import { Sidebar } from "primereact/sidebar";
+import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 
 const Nav = () => {
@@ -21,10 +21,21 @@ const Nav = () => {
             <p className="font-Roboto text-[14px]">Book Store</p>
           </div>
         </div>
+
         {/* navbar menu button*/}
-        <button onClick={() => setVisible(true)}>
+        <button className="md:hidden" onClick={() => setVisible(true)}>
           <FiMenu className="w-[25px] h-[25px]" />
         </button>
+
+        {/* navbar menu list */}
+        <div className="hidden list-none text-[#1D1D1D] font-Roboto md:flex flex-row gap-4">
+          <li className="pt-2 text-[14px] hover:text-[#717578]">Home</li>
+          <li className="pt-2 text-[14px] hover:text-[#717578]">Courses</li>
+          <li className="pt-2 text-[14px] hover:text-[#717578]">Our Service</li>
+          <li className="pt-2 text-[14px] hover:text-[#717578]">About Us</li>
+          <li className="pt-2 text-[14px] hover:text-[#717578]">Contact us</li>
+          <li className="pt-2 text-[14px] hover:text-[#717578]">Sign in</li>
+        </div>
       </div>
 
       {/* sidebar panel */}
@@ -34,6 +45,7 @@ const Nav = () => {
           visible={visible}
           onHide={() => setVisible(false)}
         >
+          {/* sidebar menu items */}
           <div className="list-none text-[#1D1D1D] font-Roboto flex items-center flex-col">
             <li className="pt-2 text-[22px] hover:text-[#717578]">Home</li>
             <li className="pt-2 text-[22px] hover:text-[#717578]">Courses</li>

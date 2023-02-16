@@ -9,6 +9,7 @@ import StudentSay from "@/component/studentSay/studentSay";
 export default function Home() {
   return (
     <>
+      <title>Home | Book Store</title>
       <Hero />
       <OurTrack />
       <PremiumLearning />
