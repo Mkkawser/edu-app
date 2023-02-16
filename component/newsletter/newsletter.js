@@ -3,10 +3,12 @@ const Newsletter = () => {
     <>
       <div className="p-2 relative">
         {/* Main Area  */}
-        <div className="bg-[#4D2C5E] h-40 w-full flex items-center justify-center flex-wrap pt-4 md:h-48 ">
+        <div className="bg-[#4D2C5E] h-48 w-full flex items-center justify-center flex-wrap pt-4 lg:h-64">
           {/* Nesletter Top Text */}
           <div className="flex flex-wrap items-center justify-center text-white font-Poppins text-[4.5vw] w-full md:flex-col">
-            <p className="block pt-1 md:text-[4vw]">Subscribe to our newsletter</p>
+            <p className="block pt-1 md:text-[4vw]">
+              Subscribe to our newsletter
+            </p>
             <p className="text-[3vw] block pb-2 md:text-[2.5vw]">
               Lorem Ipsum is simply dummy text of the printing.
             </p>

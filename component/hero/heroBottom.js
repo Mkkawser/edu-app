@@ -1,8 +1,8 @@
 const HeroBottom = () => {
   return (
     <>
-      <div className="p-4">
-        <div className="bg-[#4D2C5E] rounded-[20px] p-1 md:flex md:p-2 md:gap-4">
+      <div className="p-4 lg:mx-auto lg:w-[900px]">
+        <div className="bg-[#4D2C5E] rounded-[20px] p-1 md:flex md:p-2 md:gap-4 lg:p-4">
           {/*  3 Accebility  */}
           <div className="flex items-center gap-2 p-2 pr-[2.5vw] md:pr-0 md:p-1">
             {/* Card Image */}

@@ -36,7 +36,7 @@ const OurTrack = () => {
             {/* Card Title & Rating*/}
             <div className="pt-1">
               <div className="flex items-center justify-between gap-4 p-1">
-                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] md:truncate">
+                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] truncate">
                   UI/UX Design for Beginners
                 </p>
                 <img
@@ -96,7 +96,7 @@ const OurTrack = () => {
             {/* Card Title & Rating*/}
             <div className="pt-1">
               <div className="flex items-center justify-between gap-4 p-1">
-                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] md:truncate">
+                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] truncate">
                   Software Development Beginners
                 </p>
                 <img
@@ -157,7 +157,7 @@ const OurTrack = () => {
             {/* Card Title & Rating*/}
             <div className="pt-1">
               <div className="flex items-center justify-between gap-4 p-1">
-                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] md:truncate">
+                <p className="font-Poppins text-[#000] font-bold sm:text-[2vw] truncate">
                   Junior Software Development
                 </p>
                 <img

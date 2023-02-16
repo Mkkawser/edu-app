@@ -29,12 +29,24 @@ const Nav = () => {
 
         {/* navbar menu list */}
         <div className="hidden list-none text-[#1D1D1D] font-Roboto md:flex flex-row gap-4">
-          <li className="pt-2 text-[14px] hover:text-[#717578]">Home</li>
-          <li className="pt-2 text-[14px] hover:text-[#717578]">Courses</li>
-          <li className="pt-2 text-[14px] hover:text-[#717578]">Our Service</li>
-          <li className="pt-2 text-[14px] hover:text-[#717578]">About Us</li>
-          <li className="pt-2 text-[14px] hover:text-[#717578]">Contact us</li>
-          <li className="pt-2 text-[14px] hover:text-[#717578]">Sign in</li>
+          <li className="pt-2 text-[14px] hover:text-[#717578] lg:text-[18px]">
+            Home
+          </li>
+          <li className="pt-2 text-[14px] hover:text-[#717578] lg:text-[18px]">
+            Courses
+          </li>
+          <li className="pt-2 text-[14px] hover:text-[#717578] lg:text-[18px]">
+            Our Service
+          </li>
+          <li className="pt-2 text-[14px] hover:text-[#717578] lg:text-[18px]">
+            About Us
+          </li>
+          <li className="pt-2 text-[14px] hover:text-[#717578] lg:text-[18px]">
+            Contact us
+          </li>
+          <li className="pt-2 text-[14px] hover:text-[#717578] lg:text-[18px]">
+            Sign in
+          </li>
         </div>
       </div>
 
