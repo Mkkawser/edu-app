@@ -1,38 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm run dev | yarn dev | pnpm dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## With ``this project,``
+``(i) I convert Figma into NextJs.``
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+``(ii) I followed Mobile-First-Approach.``
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+``(iii) Mobile, Tablet, Desktop responsive.``
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+|Mobile|Tablet|Desktop|
+|-|-|-|
+|<img width="200px" src="https://user-images.githubusercontent.com/109532781/219743192-7e210e80-53ea-4c7f-8cb0-65c036d33502.png" alt="mkkawser" />|<img width="400px" src="https://user-images.githubusercontent.com/109532781/219743218-4d7facfb-f6a0-457c-9aaf-8160a63d58c6.png" alt="mkkawser" />|<img width="800px" src="https://user-images.githubusercontent.com/109532781/219743240-e9e98e69-8fc6-4c1b-af9b-7b33ee473984.png" alt="mkkawser" />|
